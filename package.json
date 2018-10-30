@@ -1,5 +1,5 @@
 {
-  "name": "docker-stats",
+  "name": "@hharnisc/docker-stats",
   "description": "All your docker containers statistics as a stream",
   "main": "stats.js",
   "bind": "stats.js",
@@ -14,12 +14,13 @@
     "stats",
     "statistics"
   ],
-  "version": "0.8.0",
+  "version": "0.9.0-beta-01",
   "license": "MIT",
   "author": "Peter Elger (http://nearform.com/)",
   "contributors": [
     "Peter Elger <elger.peter@gmail.com> (http://peterelger.com/)",
-    "Matteo Collina <matteo.collina@nearform.com>"
+    "Matteo Collina <matteo.collina@nearform.com>",
+    "Harrison Harnisch <hharnisc@gmail.com> (https://hharnisc.github.io)"
   ],
   "engines": {
     "node": "*"
@@ -28,7 +29,7 @@
     "docker-allcontainers": "^0.8.0",
     "minimist": "^1.1.1",
     "never-ending-stream": "^2.0.0",
-    "pump": "^2.0.0",
+    "pump": "^3.0.0",
     "split2": "^2.2.0",
     "through2": "^2.0.1"
   },
